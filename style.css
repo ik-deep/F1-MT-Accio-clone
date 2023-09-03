@@ -18,7 +18,7 @@
 
 }
 .header{
-    position: fixed;
+    /* position: fixed; */
     width:100vw;
     height: 8vh;
 }
@@ -48,6 +48,7 @@ letter-spacing: -0.869px;
     width: 100%;
     padding: 15px 108px !important;
     height: 100%;
+    /* position: absolute !important; */
    
 }
 

@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.parent {
+    /* background-color: #e21212; */
+    width: 100vw;
+    height: 100vh;
+    /* background-color: darkgray; */
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}
+.header{
+    position: fixed;
+    width:100vw;
+    height: 8vh;
+}
+.nsdc{
+    width: 77px;
+height: 35px;
+    background: url("assets/NSDC_Logo_in_clear_background 1.svg"), no-repeat;
+}
+
+.accio{
+    color: #012555;
+font-family: Bai Jamjuree;
+font-size: 21.714px;
+font-style: normal;
+font-weight: 600;
+line-height: 38px; /* 175% */
+letter-spacing: -0.869px;
+}
+.vertical-line{
+    width: 1px;
+    height: 32px;
+    background: #DADADA;
+}
+
+.nav-bar {
+    flex-wrap: nowrap !important;
+    width: 100%;
+    padding: 15px 108px !important;
+    height: 100%;
+   
+}
+
+.nav-2{
+    display: flex;
+width: 100%;
+/* padding: 8px 562px;
+align-items: flex-start; */
+justify-content: center;
+gap: 10px;
+background: var(--primaryskyblue, #2F80ED);
+
+}
+
+.navbar-collapse {
+    display: none;
+}
+
+@media screen and (max-width:500px) {
+    .navbar-collapse {
+        display: block;
+    }
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+ul li {
+    list-style-type: none;
+}
+ul li a {
+    text-decoration: none;
+    color: var(--Gray-2, #4F4F4F);
+}   
+
+
+.hero{
+    margin-top:calc(10vh);
+}

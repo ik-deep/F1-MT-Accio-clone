@@ -62,6 +62,8 @@
     flex-wrap: nowrap !important;
     width: 100%;
     padding: 106px 108px !important;
+    /* background-color: #ECF8FF; */
+    z-index: -20;
     /* height: 100%; */
 }
 .nav-bar{
@@ -123,7 +125,8 @@ ul li a {
 .right-hero{
     width: 32%;
     display: inline-flex;
-padding: 7px 24px 32px 24px;
+    padding: 30px 17px 13px 24px;
+    margin-top: 27px;
 flex-direction: column;
 align-items: center;
 gap: 28px;
